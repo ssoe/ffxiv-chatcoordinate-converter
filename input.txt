@@ -1,0 +1,36 @@
+Garlemald 1 ( 27.1  , 34.0 )  Aegeiros
+Garlemald 1 ( 12.2  , 12.5 )  Minerva
+Garlemald 2 ( 32.5  , 32.2 )  Minerva
+Garlemald 2 ( 32.4  , 21.6 )  Aegeiros
+Garlemald 3 ( 33.1  , 22.1 )  Minerva
+Garlemald 3 ( 9.4  , 11.5 )  Aegeiros
+Mare Lamentorum 1 ( 24.1  , 33.3 )  Lunatender Queen
+Mare Lamentorum 1 ( 24.2  , 23.2 )  Mousse Princess
+Mare Lamentorum 2 ( 28.1  , 26.5 )  Lunatender Queen
+Mare Lamentorum 2 ( 10.1  , 23.8 )  Mousse Princess
+Mare Lamentorum 3 ( 28.2  , 26.5 )  Lunatender Queen
+Mare Lamentorum 3 ( 10.2  , 23.9 )  Mousse Princess
+Thavnair 1 ( 18.1  , 23.5 )  Yilan
+Thavnair 1 ( 29.7  , 13.4 )  Sugriva
+Thavnair 2 ( 17.6  , 16.1 )  Sugriva
+Thavnair 2 ( 26.6  , 20.6 )  Yilan
+Thavnair 3 ( 29.7  , 13.7 )  Sugriva
+Thavnair 3 ( 17.6  , 16.3 )  Yilan
+Elpis 1 ( 17.6  , 29.8 )  Petalodus
+Elpis 1 ( 34.0  , 10.6 ) Gurangatch
+Elpis 2 ( 18.1  , 30.2 )  Petalodus
+Elpis 2 ( 29.0  , 27.8 )  Gurangatch
+Elpis 3 ( 12.3  , 9.9 )  Gurangatch
+Elpis 3 ( 13.1  , 32.3 )  Petalodus
+Labyrinthos 1 ( 10.1  , 19.5 )  Hulder
+Labyrinthos 1 ( 19.5  , 38.5 )  Storsie
+Labyrinthos 2 ( 10.9  , 19.1 )  Storsie
+Labyrinthos 2 ( 11.9  , 35.3 )  Hulder
+Labyrinthos 3 ( 25.6  , 24.8 )  Hulder
+Labyrinthos 3 ( 32.0  , 25.8 )  Storsie
+Ultima Thule 1 ( 8.6  , 20.2 )  Arch-Eta
+Ultima Thule 1 ( 27.7  , 12.3 )  Fan Ail
+Ultima Thule 2 ( 19.1  , 9.6 )  Fan Ail
+Ultima Thule 2 ( 15.8  , 26.1 )  Arch-Eta
+Ultima Thule 3 ( 12.0  , 21.7 )  Fan Ail
+Ultima Thule 3 ( 8.1  , 20.3 )  Arch-Eta
