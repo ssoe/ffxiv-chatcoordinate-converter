@@ -1,9 +1,10 @@
-# ffxiv-chatcoordinate-sanitizer
-Sanitizes &lt;pos> and &lt;flag> inputs from ffxiv to use with Chat Coordinates dalamud plugin
+# ffxiv-chatcoordinate-converter
+ffxiv to use with Chat Coordinates dalamud plugin
 
 https://github.com/kissorjeyabalan/dalamud-chatcoordinates
 
-Input.txt includes 36 positions not usable with Chat Coordinates.
-
-Output.txt shows coordinates after running the program.
+Take <flag> or <pos> coords from game, copy from sirenhunts.com or beartoolkit.com and put in input.txt
+Run program
 Put contents of Output.txt in a macro and execute.
+
+Works with SB, SHB and EW zones.
