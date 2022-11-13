@@ -2,7 +2,7 @@ import re
 
 #regex1 sorts input to only get Zone names
 #regex2 sorts input to only get coordinates
-regex1 = "(Labyrinthos|Thavnair|Garlemald|Mare Lamentorum|Elpis|Ultima Thule)"
+regex1 = "(Labyrinthos|Thavnair|Garlemald|Mare Lamentorum|Elpis|Ultima Thule|Lakeland|Kholusia|Amh Araeng|Il Mheg|The Rak'tika Greatwood|The Tempest|The Fringes|The Peaks|The Lochs|Yanxia|The Ruby Sea|The Azim Steppe)"
 regex2 = "\((\d|\s|\.|\,|\-)+\)"
 
 #opens output.txt, creating a file for writing data in
