@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FFXIV Coordinate Importer</title>
+  </head>
+  <body>
+    <h1>FFXIV Coordinate Importer</h1>
+    <form id="input-form">
+      <label for="input-text">Input Text:</label>
+      <br>
+      <textarea id="input-text" name="input-text" rows="10" cols="50"></textarea>
+      <br>
+      <button type="submit">Process</button>
+    </form>
+    <br>
+    <pre id="output-text"></pre>
+    <script>
+      function processInput(event) {
+        event.preventDefault();
+        const inputText = document.getElementById("input-text").value.trim();
+        const regex1 = /(Labyrinthos|Thavnair|Garlemald|Mare Lamentorum|Elpis|Ultima Thule|Lakeland|Kholusia|Amh Araeng|Il Mheg|The Rak'tika Greatwood|The Tempest|The Fringes|The Peaks|The Lochs|Yanxia|The Ruby Sea|The Azim Steppe)/g;
+        const regex2 = /\((\d|\s|\.|\,|\-)+\)/g;
+        let outputText = "";
+        inputText.split("\n").forEach(line => {
+          const zoneMatch = line.match(regex1);
+          const coordMatch = line.match(regex2);
+          if (zoneMatch && coordMatch) {
+            outputText += "/coord " + coordMatch[0] + " : " + zoneMatch[0] + "\n";
+          }
+        });
+        document.getElementById("output-text").textContent = outputText;
+      }
+      const form = document.getElementById("input-form");
+      form.addEventListener("submit", processInput);
+    </script>
+  </body>
+</html>
