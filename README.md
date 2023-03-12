@@ -8,3 +8,11 @@ Run program
 Put contents of Output.txt in a macro and execute.
 
 Works with SB, SHB and EW zones.
+
+-----------------------------------------
+
+Update 12/03/2023
+
+Added html file to do the conversion in browser using javascript instead, to avoid users having to download and use python.
+
+Site is at https://ssoe.github.io/ffxiv-chatcoordinate-converter/
