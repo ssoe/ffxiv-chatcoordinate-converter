@@ -18,7 +18,7 @@
       function processInput(event) {
         event.preventDefault();
         const inputText = document.getElementById("input-text").value.trim();
-        const regex1 = /(Labyrinthos|Thavnair|Garlemald|Mare Lamentorum|Elpis|Ultima Thule|Lakeland|Kholusia|Amh Araeng|Il Mheg|The Rak'tika Greatwood|The Tempest|The Fringes|The Peaks|The Lochs|Yanxia|The Ruby Sea|The Azim Steppe|Coerthas Western Highlands|The Dravanian Forelands|The Churning Mists|The Dravanian Hinterlands|The Sea of Clouds|Azys Lla)/g;
+        const regex1 = /(Urqopach|Kozama'uka|Yak T'el|Shaaloani|Heritage Found|Living Memory|Labyrinthos|Thavnair|Garlemald|Mare Lamentorum|Elpis|Ultima Thule|Lakeland|Kholusia|Amh Araeng|Il Mheg|The Rak'tika Greatwood|The Tempest|The Fringes|The Peaks|The Lochs|Yanxia|The Ruby Sea|The Azim Steppe|Coerthas Western Highlands|The Dravanian Forelands|The Churning Mists|The Dravanian Hinterlands|The Sea of Clouds|Azys Lla)/g;
         const regex2 = /\((\d|\s|\.|\,|\-)+\)/g;
         let outputText = "";
         inputText.split("\n").forEach(line => {
